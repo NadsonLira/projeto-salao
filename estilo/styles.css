@@ -1,0 +1,230 @@
+@charset "UFT-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #e6abc52a, #f3b6b98c, #e6d6ddb4, #f29af5, 
+    #f1c6d9b2, #c0b3b9);
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+/*min-width: 30%;
+    max-width: 100%;*/
+header{
+    background-image: linear-gradient(to bottom, #dd8e92, #e0b9cb, #d45671ad,  #f3c3dad7);
+    min-width: 30%;
+    max-width: 100%;
+       
+}
+
+header h1{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 1px;
+}
+
+header p{
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+/*min-width: 300px;
+    max-width: 1000px;*/
+header img{
+    min-width: 10%;
+    max-width: 10%;
+    margin: auto;
+    margin-bottom: -20px;
+    padding: 20px;
+}
+
+nav{
+    background-color: #e5a5b470;
+    text-align: right;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: monospace;
+    box-shadow: 0px 5px 5px rgba(114, 45, 45, 0.5);
+    padding-bottom: 8px;
+    
+    
+}
+
+nav a{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(4, 41, 1);
+    margin: 8px;
+    
+}
+
+nav a:hover{
+    background-color: #c0b3b9;
+    color: blue;
+    border-radius: 5px 5px;
+    padding: 8px;
+    transition-duration: 1s;
+}
+
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    
+    margin: auto;
+    text-indent: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.384);
+}
+
+main h2{
+    padding: 20px;
+    color: #5c055f;
+}
+
+main h3{
+    background-image: linear-gradient(to right,  #db9a9d, #f3c3da, #ebd7e0);
+    color: #642126;
+    padding: 10px;
+}
+
+main ul{
+    margin-left: 18px;
+    margin-bottom: 30px;
+    padding: 20px;
+    
+}
+
+main p{
+    margin: 2px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.principal{
+    margin: 20px;
+    background-color: #ea6dee25;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.575);
+    
+}
+
+.principal h5{
+    background-color: #e40decde;
+    color: white;
+    font-size: 1.3em;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+.principal img{
+    margin: 3px;
+}
+.principal p{
+    font-weight: lighter;
+    text-align: center;
+    font-family: cursive;
+}
+
+.melhor{
+    background-color: #e99eaeb6;
+    padding: 10px;
+    margin: 20px;
+    list-style: inside;
+    border-radius: 10px 10px 0px 0px;
+    min-width: 30%;
+    max-width: 100%;
+    
+}
+
+.melhorzinha{
+    background-color: #e9b2be9f;
+    padding: 10px;
+    margin: 20px;
+    list-style: inside;
+    border-radius: 10px 10px 0px 0px;
+    min-width: 30%;
+    max-width: 100%;
+}
+
+.unha{
+    
+    display: block;
+    margin: auto;
+    min-width: 30%;
+    max-width: 100%;
+}
+
+/*max-width: 350px; era só para lembrar*/
+img{
+    min-width: 30%;
+    max-width: 50%;
+    
+    display: inline;
+    margin: 70px;
+    margin-bottom: -10px;
+    
+}
+
+.alguns{
+    display: block;
+    margin: auto;
+    text-align: center;
+    
+}
+
+
+.normal{
+    text-align: justify;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    margin-top: -20px;
+}
+
+aside{
+    margin: 20px;
+    background-color: #ea6dee;
+    color: rgb(51, 7, 7);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.575);
+    
+    
+}
+aside > ul{
+    list-style: inside;
+    columns: 2;
+    padding: 10px;
+}
+
+aside h4{
+    background-color: #e50dec;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+footer{
+    background-color: #d688abfa;
+    text-align: center;
+    font-style: italic;
+    padding-top: 2px;
+    margin-top: 25px;
+}
